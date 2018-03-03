@@ -1,0 +1,4 @@
+#!/bin/bash
+#echo "MOVIMIENTO!!!!!"
+touch /home/pi/movimiento.test
+
