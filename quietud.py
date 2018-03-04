@@ -27,7 +27,7 @@ for opt,arg in opts:
 	elif opt in ('-a'):
 		tmax=int(arg)
 	elif opt in ('-l'):
-		limit=int(arg)
+		limite=int(arg)
 	elif opt in ('-p'):
 		pin=int(arg)
 	elif opt in ('-d'):
