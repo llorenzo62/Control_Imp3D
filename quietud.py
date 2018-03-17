@@ -41,7 +41,7 @@ dt=0
 #Setup Raspberry
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin,GPIO.OUT)
-GPIO.output(pin,GPIO.HIGH)
+GPIO.output(pin,GPIO.LOW) #rele logic
 
 
 while dt<limite:
@@ -65,5 +65,5 @@ while dt<limite:
 		print(dt)
 
 #Al menos limite minutos sin movimiento
-GPIO.output(pin,GPIO.LOW)
+#GPIO.output(pin,GPIO.LOW)
 GPIO.cleanup()
